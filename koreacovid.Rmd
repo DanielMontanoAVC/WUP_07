@@ -80,7 +80,9 @@ We get a  p-value of 0.0012 which is smaller than 0.05, meaning there is a corre
 fisher.test(table1)
 ```
 
-With this test, we get a p-value of 9e^-4 (.0009) which is smaller than 0.05 which also means a corrolation between death and sex
+With this test, we get a p-value of 9e^-4 (.0009) which is smaller than 0.05 which also means a correlation between death and sex. You have a 2.3 to 1 odds of dying from covid as a male in Korea than a female.
 
 ## Conclusions
+
+Is there a correlation between death and sex? Well with our data, we find out that there is a corrolation between death and sex regarding covid. With chisq test we get a p-value of 0.0012 which is less than 0.05 which means we reject the null hypothesis. With the fisher exact test we get odds of 2.3 times more likely to die from covid as a male in Korea.
 
