@@ -55,7 +55,7 @@ basicCC <- ggplot(dd2,aes(x=Sex,y=prcnt*100,fill=result))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+We can see that males die more often than females in this graph.
 
 ### Numerical Summaries  
 
@@ -65,7 +65,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
   
-  
+  The data will show us that approximately, males die 2 times more often than females.
 
 ## Inferential results 
 
